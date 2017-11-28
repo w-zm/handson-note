@@ -26,3 +26,12 @@
 
 
 
+
+## 数学公式
+
+$$ RMSE(X, h)=\sqrt{\frac{1}{m}\sum_{i=1}^m(h(x^{(i)}-y^{(i)})^2} $$          //Root Mean Saure Error
+
+$$MAE(X, h) = \frac{1}{m}\sum_{i=1}^m|h(x^{(i)}-y^{(i)})|$$                  //Mean Absolute Error
+
+
+
