@@ -35,3 +35,13 @@ $$MAE(X, h) = \frac{1}{m}\sum_{i=1}^m|h(x^{(i)}-y^{(i)})|$$                  //M
 
 
 
+## 第二章
+
+### Data Cleaning
+
+- 数据清理可能用到的函数：dropna(), drop(),  fillna(), 适用于DataFrame。
+- scikit-Learn提供了一个方面的类用于缺失值：Imputer。（只作用于数值属性）
+- 待续......
+
+
+
