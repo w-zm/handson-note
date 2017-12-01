@@ -40,8 +40,23 @@ $$MAE(X, h) = \frac{1}{m}\sum_{i=1}^m|h(x^{(i)}-y^{(i)})|$$                  //M
 ### Data Cleaning
 
 - 数据清理可能用到的函数：dropna(), drop(),  fillna(), 适用于DataFrame。
+
 - scikit-Learn提供了一个方面的类用于缺失值：Imputer。（只作用于数值属性）
-- 待续......
 
+- 特征值的缩放（两种常用的方法，一般调整到0-1）：
 
+  - min-max scaling（normalization）
+  - standardization
+
+- 保存训练好的模型：
+
+  ```python
+  from sklearn.external import joblib
+
+  joblib.dump(my_model, "my_model.pkl")
+  # and later...
+  my_model_loaded = joblib.load("my_model.pkl")
+  ```
+
+  ​
 
